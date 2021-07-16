@@ -1,0 +1,46 @@
+.icon {
+    color: red;
+    font-size: 30px;
+}
+
+body {
+    background-color: #acff2f1a;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text-position {
+    margin-right: 10px;
+}
+
+.text-click {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.box {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    height: 100px;
+}
+
+.message-title {
+    text-align: center;
+}
